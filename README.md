@@ -2,7 +2,7 @@
 
 Интерактивный дашборд для анализа данных конференций TED, разработанный в Yandex DataLens.
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](https://github.com/dsxx1/TED-Yandex-DataLens/blob/main/Dashboard%20Preview.png?raw=true)
 
 ---
 
@@ -100,12 +100,6 @@ country             title               speaker_name
 | `event_name` | `selected_event` |
 | `main_tag` | `selected_tag` |
 | `film_date` | `date_from` / `date_to` |
-
-### Паттерн фильтрации для необязательных параметров
-```sql
-AND (NULLIF({{selected_country}}, '') IS NULL OR e.country = {{selected_country}})
-```
-Этот паттерн позволяет не применять фильтр, если селектор пустой.
 
 ---
 
