@@ -2,7 +2,7 @@
 
 Интерактивный дашборд для анализа данных конференций TED, разработанный в Yandex DataLens.
 
-![Dashboard Preview](Dashboard Preview.png)
+![Dashboard Preview](<Dashboard Preview.png>)
 
 ---
 
